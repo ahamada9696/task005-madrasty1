@@ -1,0 +1,187 @@
+body {
+    font-family: cursive;
+    letter-spacing: 1px;
+   
+}
+*{
+    transition:  .2s;
+}
+
+/* start header section ***************************************************************************************** */
+.header {
+    height: 100vh;
+    background: white url(../img/download.jpg) no-repeat;
+    background-size: cover;
+}
+
+.box-header {
+    background: #67a790;
+    padding: 30px;
+    max-width: 40%;
+    min-height: 60vh;
+    max-height: 70vh;
+    /* min-height: 300px; */
+    border-radius: 30px;
+    margin-left: 10%;
+    margin-top: 2vh;
+}
+
+.box-header h2 {
+    text-transform: capitalize;
+    font-size: 2.0rem;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: light;
+    line-height: 3.25rem;
+}
+
+
+
+
+.box-header a {
+    text-decoration: underline;
+}
+
+/* navbar section -------------- */
+.navbar-brand img {
+    width: 150px;
+    height: 100px;
+}
+
+.navbar {
+    width: 70%;
+
+}
+
+.nav-link {
+    margin: 1rem;
+    font-size: 1.25rem;
+}
+
+@media (max-width:768px) {
+    .box-header h2 {
+        font-size: 20px;
+        line-height: 2.5rem;
+        font-weight: lighter;
+
+    }
+
+    .box-header {
+        max-height: auto;
+        min-width: 60%;
+    }
+}
+
+@media (max-width:567px) {
+    .box-header h2 {
+        font-size: 20px;
+        line-height: 2rem;
+        font-weight: lighter;
+
+    }
+
+    .box-header {
+        max-height: 50vh;
+        min-width: 70%;
+    }
+}
+
+/* end header section **************************************************************************************************** */
+
+/* start clinic section *********************************************************************************** */
+.clinic img {
+    width: 75%;
+}
+
+.clinic hr {
+    width: 200px;
+    background-color: #e98317;
+    height: 3px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.clinic h3 {
+    color: #439da5;
+}
+
+/* end clinic section *********************************************************************************** */
+
+
+
+/* start doctors section ************************************************************************** */
+.doctors {
+    background: url(../img/Path\ 62.png) no-repeat center, url(../img/i-love-my-job-so-much_329181-2178.png) no-repeat center;
+    background-size: cover;
+    height: auto;
+    min-height: 100vh;
+}
+
+.doctors hr {
+    width: 450px;
+    height: 3px;
+    border: none;
+    background: #fff;
+
+}
+
+.col-md-3 h3 {
+    font-size: 20px;
+
+}
+
+@media (max-width:992px) {
+    .clinic {
+        height: auto;
+    }
+
+    .col-md-3 h3 {
+        margin-top: 2vh;
+    }
+}
+
+@media (max-width:768px) {
+    .clinic {
+        height: auto;
+    }
+
+    .col-md-3 h3 {
+        margin-top: 5vh;
+    }
+    hr{
+        width: 50%;
+    }
+}
+
+
+@media (max-width:576px) {
+    .clinic {
+        height: auto;
+    }
+
+    .col-md-3 h3 {
+        padding-top: 70px;
+    }
+    hr{
+        max-width: 50%;
+    }
+}
+
+/* end doctors section ************************************************************************** */
+
+
+
+
+/* start footer section ------------------------------------------------------------------- */
+footer{
+    background: #0f7b65;
+    border-top-left-radius: 10rem;
+    border-top-right-radius: 10rem;
+}
+footer i{
+    font-size: 1.5rem;
+}
+.fab:hover{
+    transform: scale(1.1);
+}
+/* end footer section ********************************************************** */
